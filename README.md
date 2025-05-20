@@ -1,5 +1,8 @@
 # 🔪 BUTCHER BEEF 🥩
 
+![BUTCHER BEEF](img/screenshot.jpg)
+
+
 > *"Where customer frustrations get chopped into little pieces!"*
 
 ## 🤬 What The Heck Is This Thing?!?
