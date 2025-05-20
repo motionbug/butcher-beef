@@ -1,0 +1,83 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+}
+
+header h1 {
+    font-weight: bold;
+    color: #dc3545;
+}
+
+/* Increased card rounding */
+.card {
+    border-radius: 12px;
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.card-header {
+    font-weight: 600;
+    border-radius: 12px 12px 0 0 !important;
+}
+
+/* Beef entry speech bubble styling */
+.beef-item {
+    position: relative;
+    margin: 1.5em 0 1.5em 20px; /* Added left margin for the tail */
+    padding: 16px 24px;
+    background: #fff; /* White background */
+    border-radius: 10px;
+    border: 2px solid #333; /* Black outline */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease;
+}
+
+.beef-item::before {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -20px;
+    border-width: 10px 20px 10px 0;
+    border-style: solid;
+    border-color: transparent #333 transparent transparent;
+}
+
+.beef-item::after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: -17px;
+    border-width: 10px 20px 10px 0;
+    border-style: solid;
+    border-color: transparent #fff transparent transparent;
+}
+
+.beef-item:hover {
+    transform: translateX(5px);
+}
+
+.beef-date {
+    font-size: 0.8rem;
+}
+
+/* User form styling */
+#beef-form textarea,
+#beef-form input {
+    border-radius: 10px;
+    resize: vertical;
+    border: 1px solid #ced4da;
+}
+
+#beef-form .btn {
+    border-radius: 10px;
+}
+
+/* Style for the delete button */
+.delete-beef {
+    border-radius: 20px;
+    font-size: 0.8rem;
+    padding: 0.25rem 0.75rem;
+}
