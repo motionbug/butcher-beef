@@ -2,7 +2,6 @@
 
 ![BUTCHER BEEF](img/screenshot.jpg)
 
-
 > *"Where customer frustrations get chopped into little pieces!"*
 
 ## 🤬 What The Heck Is This Thing?!?
@@ -15,9 +14,11 @@ This web app lets you vent your deepest, darkest customer service NIGHTMARES in 
 
 - 🥊 **Beef Logger 3000**: Type out your customer frustrations in a soothing form interface
 - 💬 **Speech Bubble Technology**: Your complaints appear in fancy speech bubbles like REAL ANGRY THOUGHTS
+- 🥦 **Veggie Mode**: Not a meat lover? Switch to veggie mode for a plant-based experience!
 - 🗑️ **Rage Delete™**: Obliterate complaints from existence when you're feeling better
 - 🔄 **Refresh Button**: For when you need to relive the trauma over and over again
 - 💾 **Permanent Record**: Your beefs are saved forever (or until you delete them)
+- 🎨 **Themes**: Toggle between meaty red and veggie green themes
 
 ## 🛠️ Tech Stack of AWESOMENESS
 
@@ -78,7 +79,12 @@ npm run dev
    - Marvel at your growing collection of customer service nightmares
    - Each beef appears in its own speech bubble (fancy!)
 
-3. **Delete a Beef**:
+3. **Switch Themes**:
+   - Click the meat/veggie toggle in the top-right corner
+   - Watch as the entire app transforms colors instantly
+   - Your preference is saved automatically for next time
+
+4. **Delete a Beef**:
    - Found inner peace? Forgiven that customer?
    - Hit that "Delete Beef" button and watch your troubles disappear!
 
