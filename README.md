@@ -38,7 +38,7 @@ This web app lets you vent your deepest, darkest customer service NIGHTMARES in 
 
 1. Clone this beast of a repo:
    ```bash
-   git clone https://github.com/your-username/butcher-beef.git
+   git clone https://github.com/motionbug/butcher-beef.git
    ```
 
 2. Teleport to the project folder:
