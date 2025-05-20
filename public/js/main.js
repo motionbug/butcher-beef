@@ -1,4 +1,38 @@
+// Theme switching functionality
+function applyTheme(isVeggie) {
+    const root = document.documentElement;
+    const headerEmoji = document.querySelector('.header-emoji');
+    const beefText = document.querySelector('.beef-text');
+    
+    if (isVeggie) {
+        root.setAttribute('data-theme', 'veggie');
+        headerEmoji.textContent = '🥦';
+        beefText.textContent = 'veggies';
+    } else {
+        root.removeAttribute('data-theme');
+        headerEmoji.textContent = '🥩';
+        beefText.textContent = 'beefs';
+    }
+    
+    // Save preference to localStorage
+    localStorage.setItem('isVeggie', isVeggie);
+}
+
+// Initialize theme from localStorage or default to meat
 document.addEventListener('DOMContentLoaded', () => {
+    // Set up theme toggle
+    const themeToggle = document.getElementById('themeToggle');
+    const isVeggie = localStorage.getItem('isVeggie') === 'true';
+    
+    // Apply saved theme
+    themeToggle.checked = isVeggie;
+    applyTheme(isVeggie);
+    
+    // Add event listener for theme toggle
+    themeToggle.addEventListener('change', (e) => {
+        applyTheme(e.target.checked);
+    });
+    
     // Get DOM elements
     const beefForm = document.getElementById('beef-form');
     const beefsContainer = document.getElementById('beefs-container');
